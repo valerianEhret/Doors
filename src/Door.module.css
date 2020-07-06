@@ -8,7 +8,7 @@
 .box {
     display: flex;
 }
+
 .img {
     height: 620px;
-    cursor: pointer;
 }
