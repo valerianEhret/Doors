@@ -5,8 +5,8 @@ import classes from '../Door.module.css';
 export function Door2() {
 
     let state1 = {
-        img1: "https://uc033f430cb905ba391d03431f58.previews.dropboxusercontent.com/p/thumb/AA0i14zzpA66lmgd22ktaP0ae92LG0R2sM1G0-kDoG0A8PM8m87HI41ejGZ0RD6d4-pCmzWpzc1rfS_tE018bLcyokF1BCeQHYTn2w20sZEyIfcWJeycnVuvyzD3EoATyFa8-Svp8_8fy54-KRAnjbIGWuE2ur_2P-ZSsj-wigSNUFZC5_mxuIctPxPJwJ69I7hNCEl6j5ArdVjwhDB6XWSprVNBWlWIIZs0kdDkmLYFiXQAKhe4jn8uJlUbJNo0glF84I-396Kf2mhUkfAKaE83FNVu24gzvZYWSADncrqFuq8vWo5PqvOGxK2-t5V5clJ7MCtFt_djcheat2GN-7Pv/p?fv_content=true&size_mode=5",
-        img2: "https://uc0c9ae0ba39a8aecb4cecc020f6.previews.dropboxusercontent.com/p/thumb/AA1kRzKa2rbkk7ZmeGYSgD-ImiN70ykqCHQDE_022K4pud79OC87NXvQnRyiDBT8uTNVAZZCNY46uY0ZNr6yr0OVF3GUeQ7UENGzdLq4twHFhD1r_jDDhsCeZLPP84HDbZNaEQnDFnglsFyoXkCmb8_vrzU4pJeorv1VetiWOiVNoWOV5He0V8hatOd8OL9SZW1wxU-gGBsgIvYAkI0iH87UxgZ07qxpGzN26AQrMu2WJUHZASoNl9HFPGR0TMmenbpdDpvA0PpQfHXTRa7jdRWhA8x-9njgK9VcIX1BSCY0SMX8ib9hI_63AvxpiBoP8_lPFoGmk5B_EGigo96LmYXQ/p?fv_content=true&size_mode=5",
+        img1: "https://ucaea102f9de1bda646a78853247.previews.dropboxusercontent.com/p/thumb/AA1hqxoQtHYFw-3CqRDYvsJXINuOvXamryG7sAvVLzAsAkeE9bBmqPratADfEcSLtZX-1n6tGkfkl1-3blMvnEmIMVDyJicwiMT_FE7YRASTJr5gb0x877RuUSMI34I0zcHS92vVYsS6hRwMg4cloiOdcO03OTa67jPX1f48z272QR-KPfMLUXDUCAIoURvb6x7yjuvi1nv_E6M1n5Y5M2TcU7Yzl-ACucOvzharJySAjwI3GSBI392DjhxKm4QYWvIgoMqOB-_M8VvbjJD-C1Z4O4UZGoFUkqupLR25XbC_lNTssbfeFHw7HGEpLLXgP2Gm--RSccke_9BSQGORUN4e/p?fv_content=true&size_mode=5",
+        img2: "https://uc8a65e40f8fba92d6305a8e071f.previews.dropboxusercontent.com/p/thumb/AA0urglFUdhJ3Kzugn1yeNxA-68drhYSX-iwqFrFVI_SUgTq0wT1-w0_sVKL10KqGZtn9OmlNEj773Ct2E-haYNYpTOoifEvaCwmIeza09pnV8rL-XBYlNVQtb_vFsE3MQE_zmovzDPnPNBSXBMdkrLU37fqxF2zmOabXyByXAKNxTRxrfIh4LDUIpzJqVob-hp3otM6M2o47bOpxG2ApWr93GL1nNaqZZ_NsZxVkxC0UuQZEyENsc3wcxDDmpUgtv7TWk7D_9JFx7-mxhZPK6q4VM3neZUHzlC7gfWoIcvPwhaYJoU5a-X2tca4M1wp5psiqm_9B5gg5PCzAVI8iwnA/p?fv_content=true&size_mode=5",
     }
 
 
