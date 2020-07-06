@@ -26,7 +26,7 @@ export function Door8() {
 
         <div className={classes.wraper}>
             <div className={classes.box}>
-                <img src={img} alt="image" onClick={nextImg}/>
+                <img  className={classes.img}    src={img} alt="image" onClick={nextImg}/>
             </div>
         </div>
     )
