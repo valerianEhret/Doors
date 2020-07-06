@@ -1,40 +1,46 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 import classes from './Navbar.module.css';
+import {url} from "inspector";
 
 
 export function Navbar() {
+
+
+
+
     return (
         <div className={classes.wraper}>
-            <div>
-                <NavLink  to="/door1"><img src="https://uc3d9e8d3a28296e0639a92295ad.previews.dropboxusercontent.com/p/thumb/AA3jp3XdDNlwLcxNF0t4UNAqoE1P5D7l7QX6jzy54zdo2yg_7bmdGE4OTotwX0rKewMSPcYIoeX-TOTcq-DUKQq8ezhYC0BW5yb5g3N4KrhOMjMi_aXVT93lcZbQMKltQ1AgCpyMD5wyLfo5TbIrlCdzvZnXG0ujNY2BoLH3jnSyO05za2xNKPXcV3mO4Nnj25rsq20PBaM5KuqOgmnFnG3CgL-bkWBOdm1vSvIyOxJUW2-YxSGRHcINFWRlDTpUjcjCNyci_qPLrPM0wZvhA1muxFFyAAdjn421nRGuAB6xJhO8dNEEGpPpIeRKXwmffUZvcxVi-LV3HP2v14lSlwyWVMcyOBs-UU3HoMNF8ICBkQ/p.jpeg?fv_content=true&size_mode=5" alt="door"/></NavLink>
+
+            <div className={classes.box}>
+                <NavLink  to="/door1"><img src="https://previews.dropbox.com/p/thumb/AA3evewiCl5hZDFqz2FFN4pluNPQr5b-2-5pHYmu4KGr6xgDlwQfcl8okS6d4ZSmBpUEAaGXWaNHUzCvfKtMRRV063NWHH9LIjc3u-gX-OC79lZdMdT3Jqjlrv7jptnqxfwKB9lwqnJRC-EpMCuA3q2BSnb_PA5uF1oH75wLT5D6I_nIOnXSBATdxp3gvu3acViOO97gPrWGuaPbBffz92atZLgt41uT2lytfx9qt3A5koNBKE00jtFO-c3oPZvwImyXrRPZIQw897g6c1zvbvkmfKboytEjEEnsuWozPl_63dvLwmLYjpDgicUaNvPrpOLh2sTgoo88nKJharxycpkXF7bSvwT6r__EP2C32jM-eg/p.png?fv_content=true&size_mode=5" alt="door"/></NavLink>
             </div>
-            <div>
-                <NavLink  to="/door2"><img src="https://uc3d9e8d3a28296e0639a92295ad.previews.dropboxusercontent.com/p/thumb/AA3jp3XdDNlwLcxNF0t4UNAqoE1P5D7l7QX6jzy54zdo2yg_7bmdGE4OTotwX0rKewMSPcYIoeX-TOTcq-DUKQq8ezhYC0BW5yb5g3N4KrhOMjMi_aXVT93lcZbQMKltQ1AgCpyMD5wyLfo5TbIrlCdzvZnXG0ujNY2BoLH3jnSyO05za2xNKPXcV3mO4Nnj25rsq20PBaM5KuqOgmnFnG3CgL-bkWBOdm1vSvIyOxJUW2-YxSGRHcINFWRlDTpUjcjCNyci_qPLrPM0wZvhA1muxFFyAAdjn421nRGuAB6xJhO8dNEEGpPpIeRKXwmffUZvcxVi-LV3HP2v14lSlwyWVMcyOBs-UU3HoMNF8ICBkQ/p.jpeg?fv_content=true&size_mode=5" alt="door"/></NavLink>
+
+            <div className={classes.box}>
+                <NavLink  to="/door2"><img src="https://previews.dropbox.com/p/thumb/AA3evewiCl5hZDFqz2FFN4pluNPQr5b-2-5pHYmu4KGr6xgDlwQfcl8okS6d4ZSmBpUEAaGXWaNHUzCvfKtMRRV063NWHH9LIjc3u-gX-OC79lZdMdT3Jqjlrv7jptnqxfwKB9lwqnJRC-EpMCuA3q2BSnb_PA5uF1oH75wLT5D6I_nIOnXSBATdxp3gvu3acViOO97gPrWGuaPbBffz92atZLgt41uT2lytfx9qt3A5koNBKE00jtFO-c3oPZvwImyXrRPZIQw897g6c1zvbvkmfKboytEjEEnsuWozPl_63dvLwmLYjpDgicUaNvPrpOLh2sTgoo88nKJharxycpkXF7bSvwT6r__EP2C32jM-eg/p.png?fv_content=true&size_mode=5" alt="door"/></NavLink>
+            </div> <div className={classes.box}>
+                <NavLink  to="/door3"><img src="https://previews.dropbox.com/p/thumb/AA3evewiCl5hZDFqz2FFN4pluNPQr5b-2-5pHYmu4KGr6xgDlwQfcl8okS6d4ZSmBpUEAaGXWaNHUzCvfKtMRRV063NWHH9LIjc3u-gX-OC79lZdMdT3Jqjlrv7jptnqxfwKB9lwqnJRC-EpMCuA3q2BSnb_PA5uF1oH75wLT5D6I_nIOnXSBATdxp3gvu3acViOO97gPrWGuaPbBffz92atZLgt41uT2lytfx9qt3A5koNBKE00jtFO-c3oPZvwImyXrRPZIQw897g6c1zvbvkmfKboytEjEEnsuWozPl_63dvLwmLYjpDgicUaNvPrpOLh2sTgoo88nKJharxycpkXF7bSvwT6r__EP2C32jM-eg/p.png?fv_content=true&size_mode=5" alt="door"/></NavLink>
             </div>
-            <div>
-                <NavLink  to="/door3"><img src="https://uc3d9e8d3a28296e0639a92295ad.previews.dropboxusercontent.com/p/thumb/AA3jp3XdDNlwLcxNF0t4UNAqoE1P5D7l7QX6jzy54zdo2yg_7bmdGE4OTotwX0rKewMSPcYIoeX-TOTcq-DUKQq8ezhYC0BW5yb5g3N4KrhOMjMi_aXVT93lcZbQMKltQ1AgCpyMD5wyLfo5TbIrlCdzvZnXG0ujNY2BoLH3jnSyO05za2xNKPXcV3mO4Nnj25rsq20PBaM5KuqOgmnFnG3CgL-bkWBOdm1vSvIyOxJUW2-YxSGRHcINFWRlDTpUjcjCNyci_qPLrPM0wZvhA1muxFFyAAdjn421nRGuAB6xJhO8dNEEGpPpIeRKXwmffUZvcxVi-LV3HP2v14lSlwyWVMcyOBs-UU3HoMNF8ICBkQ/p.jpeg?fv_content=true&size_mode=5" alt="door"/></NavLink>
+            <div className={classes.box}>
+                <NavLink  to="/door4"><img src="https://previews.dropbox.com/p/thumb/AA3evewiCl5hZDFqz2FFN4pluNPQr5b-2-5pHYmu4KGr6xgDlwQfcl8okS6d4ZSmBpUEAaGXWaNHUzCvfKtMRRV063NWHH9LIjc3u-gX-OC79lZdMdT3Jqjlrv7jptnqxfwKB9lwqnJRC-EpMCuA3q2BSnb_PA5uF1oH75wLT5D6I_nIOnXSBATdxp3gvu3acViOO97gPrWGuaPbBffz92atZLgt41uT2lytfx9qt3A5koNBKE00jtFO-c3oPZvwImyXrRPZIQw897g6c1zvbvkmfKboytEjEEnsuWozPl_63dvLwmLYjpDgicUaNvPrpOLh2sTgoo88nKJharxycpkXF7bSvwT6r__EP2C32jM-eg/p.png?fv_content=true&size_mode=5" alt="door"/></NavLink>
             </div>
-            <div>
-                <NavLink  to="/door4"><img src="https://uc3d9e8d3a28296e0639a92295ad.previews.dropboxusercontent.com/p/thumb/AA3jp3XdDNlwLcxNF0t4UNAqoE1P5D7l7QX6jzy54zdo2yg_7bmdGE4OTotwX0rKewMSPcYIoeX-TOTcq-DUKQq8ezhYC0BW5yb5g3N4KrhOMjMi_aXVT93lcZbQMKltQ1AgCpyMD5wyLfo5TbIrlCdzvZnXG0ujNY2BoLH3jnSyO05za2xNKPXcV3mO4Nnj25rsq20PBaM5KuqOgmnFnG3CgL-bkWBOdm1vSvIyOxJUW2-YxSGRHcINFWRlDTpUjcjCNyci_qPLrPM0wZvhA1muxFFyAAdjn421nRGuAB6xJhO8dNEEGpPpIeRKXwmffUZvcxVi-LV3HP2v14lSlwyWVMcyOBs-UU3HoMNF8ICBkQ/p.jpeg?fv_content=true&size_mode=5" alt="door"/></NavLink>
+            <div className={classes.box}>
+                <NavLink  to="/door5"><img src="https://previews.dropbox.com/p/thumb/AA3evewiCl5hZDFqz2FFN4pluNPQr5b-2-5pHYmu4KGr6xgDlwQfcl8okS6d4ZSmBpUEAaGXWaNHUzCvfKtMRRV063NWHH9LIjc3u-gX-OC79lZdMdT3Jqjlrv7jptnqxfwKB9lwqnJRC-EpMCuA3q2BSnb_PA5uF1oH75wLT5D6I_nIOnXSBATdxp3gvu3acViOO97gPrWGuaPbBffz92atZLgt41uT2lytfx9qt3A5koNBKE00jtFO-c3oPZvwImyXrRPZIQw897g6c1zvbvkmfKboytEjEEnsuWozPl_63dvLwmLYjpDgicUaNvPrpOLh2sTgoo88nKJharxycpkXF7bSvwT6r__EP2C32jM-eg/p.png?fv_content=true&size_mode=5" alt="door"/></NavLink>
             </div>
-            <div>
-                <NavLink  to="/door5"><img src="https://uc3d9e8d3a28296e0639a92295ad.previews.dropboxusercontent.com/p/thumb/AA3jp3XdDNlwLcxNF0t4UNAqoE1P5D7l7QX6jzy54zdo2yg_7bmdGE4OTotwX0rKewMSPcYIoeX-TOTcq-DUKQq8ezhYC0BW5yb5g3N4KrhOMjMi_aXVT93lcZbQMKltQ1AgCpyMD5wyLfo5TbIrlCdzvZnXG0ujNY2BoLH3jnSyO05za2xNKPXcV3mO4Nnj25rsq20PBaM5KuqOgmnFnG3CgL-bkWBOdm1vSvIyOxJUW2-YxSGRHcINFWRlDTpUjcjCNyci_qPLrPM0wZvhA1muxFFyAAdjn421nRGuAB6xJhO8dNEEGpPpIeRKXwmffUZvcxVi-LV3HP2v14lSlwyWVMcyOBs-UU3HoMNF8ICBkQ/p.jpeg?fv_content=true&size_mode=5" alt="door"/></NavLink>
+            <div className={classes.box}>
+                <NavLink  to="/door6"><img src="https://previews.dropbox.com/p/thumb/AA3evewiCl5hZDFqz2FFN4pluNPQr5b-2-5pHYmu4KGr6xgDlwQfcl8okS6d4ZSmBpUEAaGXWaNHUzCvfKtMRRV063NWHH9LIjc3u-gX-OC79lZdMdT3Jqjlrv7jptnqxfwKB9lwqnJRC-EpMCuA3q2BSnb_PA5uF1oH75wLT5D6I_nIOnXSBATdxp3gvu3acViOO97gPrWGuaPbBffz92atZLgt41uT2lytfx9qt3A5koNBKE00jtFO-c3oPZvwImyXrRPZIQw897g6c1zvbvkmfKboytEjEEnsuWozPl_63dvLwmLYjpDgicUaNvPrpOLh2sTgoo88nKJharxycpkXF7bSvwT6r__EP2C32jM-eg/p.png?fv_content=true&size_mode=5" alt="door"/></NavLink>
             </div>
-            <div>
-                <NavLink  to="/door6"><img src="https://uc3d9e8d3a28296e0639a92295ad.previews.dropboxusercontent.com/p/thumb/AA3jp3XdDNlwLcxNF0t4UNAqoE1P5D7l7QX6jzy54zdo2yg_7bmdGE4OTotwX0rKewMSPcYIoeX-TOTcq-DUKQq8ezhYC0BW5yb5g3N4KrhOMjMi_aXVT93lcZbQMKltQ1AgCpyMD5wyLfo5TbIrlCdzvZnXG0ujNY2BoLH3jnSyO05za2xNKPXcV3mO4Nnj25rsq20PBaM5KuqOgmnFnG3CgL-bkWBOdm1vSvIyOxJUW2-YxSGRHcINFWRlDTpUjcjCNyci_qPLrPM0wZvhA1muxFFyAAdjn421nRGuAB6xJhO8dNEEGpPpIeRKXwmffUZvcxVi-LV3HP2v14lSlwyWVMcyOBs-UU3HoMNF8ICBkQ/p.jpeg?fv_content=true&size_mode=5" alt="door"/></NavLink>
+            <div className={classes.box}>
+                <NavLink  to="/door7"><img src="https://previews.dropbox.com/p/thumb/AA3evewiCl5hZDFqz2FFN4pluNPQr5b-2-5pHYmu4KGr6xgDlwQfcl8okS6d4ZSmBpUEAaGXWaNHUzCvfKtMRRV063NWHH9LIjc3u-gX-OC79lZdMdT3Jqjlrv7jptnqxfwKB9lwqnJRC-EpMCuA3q2BSnb_PA5uF1oH75wLT5D6I_nIOnXSBATdxp3gvu3acViOO97gPrWGuaPbBffz92atZLgt41uT2lytfx9qt3A5koNBKE00jtFO-c3oPZvwImyXrRPZIQw897g6c1zvbvkmfKboytEjEEnsuWozPl_63dvLwmLYjpDgicUaNvPrpOLh2sTgoo88nKJharxycpkXF7bSvwT6r__EP2C32jM-eg/p.png?fv_content=true&size_mode=5" alt="door"/></NavLink>
             </div>
-            <div>
-                <NavLink  to="/door7"><img src="https://uc3d9e8d3a28296e0639a92295ad.previews.dropboxusercontent.com/p/thumb/AA3jp3XdDNlwLcxNF0t4UNAqoE1P5D7l7QX6jzy54zdo2yg_7bmdGE4OTotwX0rKewMSPcYIoeX-TOTcq-DUKQq8ezhYC0BW5yb5g3N4KrhOMjMi_aXVT93lcZbQMKltQ1AgCpyMD5wyLfo5TbIrlCdzvZnXG0ujNY2BoLH3jnSyO05za2xNKPXcV3mO4Nnj25rsq20PBaM5KuqOgmnFnG3CgL-bkWBOdm1vSvIyOxJUW2-YxSGRHcINFWRlDTpUjcjCNyci_qPLrPM0wZvhA1muxFFyAAdjn421nRGuAB6xJhO8dNEEGpPpIeRKXwmffUZvcxVi-LV3HP2v14lSlwyWVMcyOBs-UU3HoMNF8ICBkQ/p.jpeg?fv_content=true&size_mode=5" alt="door"/></NavLink>
+            <div className={classes.box}>
+                <NavLink  to="/door8"><img src="https://previews.dropbox.com/p/thumb/AA3evewiCl5hZDFqz2FFN4pluNPQr5b-2-5pHYmu4KGr6xgDlwQfcl8okS6d4ZSmBpUEAaGXWaNHUzCvfKtMRRV063NWHH9LIjc3u-gX-OC79lZdMdT3Jqjlrv7jptnqxfwKB9lwqnJRC-EpMCuA3q2BSnb_PA5uF1oH75wLT5D6I_nIOnXSBATdxp3gvu3acViOO97gPrWGuaPbBffz92atZLgt41uT2lytfx9qt3A5koNBKE00jtFO-c3oPZvwImyXrRPZIQw897g6c1zvbvkmfKboytEjEEnsuWozPl_63dvLwmLYjpDgicUaNvPrpOLh2sTgoo88nKJharxycpkXF7bSvwT6r__EP2C32jM-eg/p.png?fv_content=true&size_mode=5" alt="door"/></NavLink>
             </div>
-            <div>
-                <NavLink  to="/door8"><img src="https://uc3d9e8d3a28296e0639a92295ad.previews.dropboxusercontent.com/p/thumb/AA3jp3XdDNlwLcxNF0t4UNAqoE1P5D7l7QX6jzy54zdo2yg_7bmdGE4OTotwX0rKewMSPcYIoeX-TOTcq-DUKQq8ezhYC0BW5yb5g3N4KrhOMjMi_aXVT93lcZbQMKltQ1AgCpyMD5wyLfo5TbIrlCdzvZnXG0ujNY2BoLH3jnSyO05za2xNKPXcV3mO4Nnj25rsq20PBaM5KuqOgmnFnG3CgL-bkWBOdm1vSvIyOxJUW2-YxSGRHcINFWRlDTpUjcjCNyci_qPLrPM0wZvhA1muxFFyAAdjn421nRGuAB6xJhO8dNEEGpPpIeRKXwmffUZvcxVi-LV3HP2v14lSlwyWVMcyOBs-UU3HoMNF8ICBkQ/p.jpeg?fv_content=true&size_mode=5" alt="door"/></NavLink>
+            <div className={classes.box}>
+                <NavLink  to="/door9"><img src="https://previews.dropbox.com/p/thumb/AA3evewiCl5hZDFqz2FFN4pluNPQr5b-2-5pHYmu4KGr6xgDlwQfcl8okS6d4ZSmBpUEAaGXWaNHUzCvfKtMRRV063NWHH9LIjc3u-gX-OC79lZdMdT3Jqjlrv7jptnqxfwKB9lwqnJRC-EpMCuA3q2BSnb_PA5uF1oH75wLT5D6I_nIOnXSBATdxp3gvu3acViOO97gPrWGuaPbBffz92atZLgt41uT2lytfx9qt3A5koNBKE00jtFO-c3oPZvwImyXrRPZIQw897g6c1zvbvkmfKboytEjEEnsuWozPl_63dvLwmLYjpDgicUaNvPrpOLh2sTgoo88nKJharxycpkXF7bSvwT6r__EP2C32jM-eg/p.png?fv_content=true&size_mode=5" alt="door"/></NavLink>
             </div>
-            <div>
-                <NavLink  to="/door9"><img src="https://uc3d9e8d3a28296e0639a92295ad.previews.dropboxusercontent.com/p/thumb/AA3jp3XdDNlwLcxNF0t4UNAqoE1P5D7l7QX6jzy54zdo2yg_7bmdGE4OTotwX0rKewMSPcYIoeX-TOTcq-DUKQq8ezhYC0BW5yb5g3N4KrhOMjMi_aXVT93lcZbQMKltQ1AgCpyMD5wyLfo5TbIrlCdzvZnXG0ujNY2BoLH3jnSyO05za2xNKPXcV3mO4Nnj25rsq20PBaM5KuqOgmnFnG3CgL-bkWBOdm1vSvIyOxJUW2-YxSGRHcINFWRlDTpUjcjCNyci_qPLrPM0wZvhA1muxFFyAAdjn421nRGuAB6xJhO8dNEEGpPpIeRKXwmffUZvcxVi-LV3HP2v14lSlwyWVMcyOBs-UU3HoMNF8ICBkQ/p.jpeg?fv_content=true&size_mode=5" alt="door"/></NavLink>
-            </div>
-            <div>
-                <NavLink  to="/door10"><img src="https://uc3d9e8d3a28296e0639a92295ad.previews.dropboxusercontent.com/p/thumb/AA3jp3XdDNlwLcxNF0t4UNAqoE1P5D7l7QX6jzy54zdo2yg_7bmdGE4OTotwX0rKewMSPcYIoeX-TOTcq-DUKQq8ezhYC0BW5yb5g3N4KrhOMjMi_aXVT93lcZbQMKltQ1AgCpyMD5wyLfo5TbIrlCdzvZnXG0ujNY2BoLH3jnSyO05za2xNKPXcV3mO4Nnj25rsq20PBaM5KuqOgmnFnG3CgL-bkWBOdm1vSvIyOxJUW2-YxSGRHcINFWRlDTpUjcjCNyci_qPLrPM0wZvhA1muxFFyAAdjn421nRGuAB6xJhO8dNEEGpPpIeRKXwmffUZvcxVi-LV3HP2v14lSlwyWVMcyOBs-UU3HoMNF8ICBkQ/p.jpeg?fv_content=true&size_mode=5" alt="door"/></NavLink>
+            <div className={classes.box}>
+                <NavLink  to="/door10"><img src="https://previews.dropbox.com/p/thumb/AA3evewiCl5hZDFqz2FFN4pluNPQr5b-2-5pHYmu4KGr6xgDlwQfcl8okS6d4ZSmBpUEAaGXWaNHUzCvfKtMRRV063NWHH9LIjc3u-gX-OC79lZdMdT3Jqjlrv7jptnqxfwKB9lwqnJRC-EpMCuA3q2BSnb_PA5uF1oH75wLT5D6I_nIOnXSBATdxp3gvu3acViOO97gPrWGuaPbBffz92atZLgt41uT2lytfx9qt3A5koNBKE00jtFO-c3oPZvwImyXrRPZIQw897g6c1zvbvkmfKboytEjEEnsuWozPl_63dvLwmLYjpDgicUaNvPrpOLh2sTgoo88nKJharxycpkXF7bSvwT6r__EP2C32jM-eg/p.png?fv_content=true&size_mode=5" alt="door"/></NavLink>
             </div>
 
         </div>

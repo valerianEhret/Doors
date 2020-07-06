@@ -1,3 +1,17 @@
+
+
+
 .wraper {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.box {
+    margin: 20px 30px;
+}
+
+.box:hover {
+    transform: scale(2, 2);
+}
+

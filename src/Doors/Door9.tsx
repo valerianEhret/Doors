@@ -12,9 +12,12 @@ export function Door9() {
 
     let [img, setImg] = useState(state1.img1);
 
-
     const nextImg = () => {
-        setImg(state1.img2)
+        if( img === state1.img1) {
+            setImg(state1.img2)
+        } else {
+            setImg(state1.img1)
+        }
     }
 
 
@@ -22,12 +25,8 @@ export function Door9() {
 
         <div className={classes.wraper}>
             <div className={classes.box}>
-                <img src={img} alt="door"/>
+                <img src={img} alt="image" onClick={nextImg}/>
             </div>
-            <div>
-                <button onClick={nextImg}>next</button>
-            </div>
-
         </div>
     )
 

@@ -14,7 +14,11 @@ export function Door6() {
 
 
     const nextImg = () => {
-        setImg(state1.img2)
+        if( img === state1.img1) {
+            setImg(state1.img2)
+        } else {
+            setImg(state1.img1)
+        }
     }
 
 
@@ -22,12 +26,8 @@ export function Door6() {
 
         <div className={classes.wraper}>
             <div className={classes.box}>
-                <img src={img} alt="door"/>
+                <img src={img} alt="image" onClick={nextImg}/>
             </div>
-            <div>
-                <button onClick={nextImg}>next</button>
-            </div>
-
         </div>
     )
 
