@@ -9,7 +9,7 @@ import {url} from "inspector";
 export function Navbar() {
 
     let state = {
-        img1: "https://uc9bf5fcbe436e93dbdef9d8bf89.previews.dropboxusercontent.com/p/thumb/AA3hkmW4ROFro6k7RNjFVRrdmRnBCaMWiemi1hH07zW2r2Qy_aVa73Hwd0BcN0g81_SnyyBolpedVAmgbWkA_pGD1AfNOUvNM8Wvhais7y75emwnTkno9M_1onNXYb7wyajO2MOrpTVJ5QyhDRj7vmmo313aQu7e_AVE9b8-oqS1OChM8LI3-W1L53MYzv3gbWjG-eHz-1gLnSLChXk4AwBSBziqblbsHxkKKZ8Ao1tJ2hxkvMzWOuPdL_bFc6ZqwlCG-opszSChbXjay9JJWdYpr4ZkQTRWQM6xacK8Hy8gAMYpYD1fvaUsxyRQsctxdnG4wXdoWMDY658d4kWBPiRoDOs2yEm5X3Z7pNkn5v3I7g/p.png?fv_content=true&size_mode=5",
+        img1: "https://sun6-19.userapi.com/H_yuqAHwESlT5lvE8tC_gcmG64EtRR9XF5JhBw/9OHxA9ied7Y.jpg",
         img2: "https://ucb48ca142a3d0b203e53cde58b3.previews.dropboxusercontent.com/p/thumb/AA2JExHSdVZkZlyd0XekIisc74yrt03ua16I3_YinH-TQnxNpl8WUQhl7afBiIEBxQGA9YINaGnsLv126GULGv7ebhXjztW5ENpYwfoeNuG1MR9xuvyIQkOa4jL7uAcCwBgr38seuRRoHgtbpq8y37GE0Omyywfu0bwDsZ-TtNXSX-9RKIR2R4C_pgks55PNceeLynpFT0vNxXO5o2f8CAhXJJIKO_XB_CydbalRvMY5nGaD_ZXMoEinvpt7RYA8MDtjlIJR3aJlX9V1ClWQ5ZAhk6zBtNJMNXnrylZcbJ7mQvkVTd-8czBMqy2uLNPvdP2MyzWlsmlWiPaqTJ2Ljw3F_9udbOOvdHyM4UaIvNNV6g/p.png?fv_content=true&size_mode=5",
     }
 
@@ -27,7 +27,7 @@ export function Navbar() {
 
 
     let state22 = {
-        img122: "https://uc9bf5fcbe436e93dbdef9d8bf89.previews.dropboxusercontent.com/p/thumb/AA3hkmW4ROFro6k7RNjFVRrdmRnBCaMWiemi1hH07zW2r2Qy_aVa73Hwd0BcN0g81_SnyyBolpedVAmgbWkA_pGD1AfNOUvNM8Wvhais7y75emwnTkno9M_1onNXYb7wyajO2MOrpTVJ5QyhDRj7vmmo313aQu7e_AVE9b8-oqS1OChM8LI3-W1L53MYzv3gbWjG-eHz-1gLnSLChXk4AwBSBziqblbsHxkKKZ8Ao1tJ2hxkvMzWOuPdL_bFc6ZqwlCG-opszSChbXjay9JJWdYpr4ZkQTRWQM6xacK8Hy8gAMYpYD1fvaUsxyRQsctxdnG4wXdoWMDY658d4kWBPiRoDOs2yEm5X3Z7pNkn5v3I7g/p.png?fv_content=true&size_mode=5",
+        img122: "https://sun6-19.userapi.com/H_yuqAHwESlT5lvE8tC_gcmG64EtRR9XF5JhBw/9OHxA9ied7Y.jpg",
         img222: "https://ucb48ca142a3d0b203e53cde58b3.previews.dropboxusercontent.com/p/thumb/AA2JExHSdVZkZlyd0XekIisc74yrt03ua16I3_YinH-TQnxNpl8WUQhl7afBiIEBxQGA9YINaGnsLv126GULGv7ebhXjztW5ENpYwfoeNuG1MR9xuvyIQkOa4jL7uAcCwBgr38seuRRoHgtbpq8y37GE0Omyywfu0bwDsZ-TtNXSX-9RKIR2R4C_pgks55PNceeLynpFT0vNxXO5o2f8CAhXJJIKO_XB_CydbalRvMY5nGaD_ZXMoEinvpt7RYA8MDtjlIJR3aJlX9V1ClWQ5ZAhk6zBtNJMNXnrylZcbJ7mQvkVTd-8czBMqy2uLNPvdP2MyzWlsmlWiPaqTJ2Ljw3F_9udbOOvdHyM4UaIvNNV6g/p.png?fv_content=true&size_mode=5",
     }
 
@@ -45,7 +45,7 @@ export function Navbar() {
 
 
     let state33 = {
-        img133: "https://uc9bf5fcbe436e93dbdef9d8bf89.previews.dropboxusercontent.com/p/thumb/AA3hkmW4ROFro6k7RNjFVRrdmRnBCaMWiemi1hH07zW2r2Qy_aVa73Hwd0BcN0g81_SnyyBolpedVAmgbWkA_pGD1AfNOUvNM8Wvhais7y75emwnTkno9M_1onNXYb7wyajO2MOrpTVJ5QyhDRj7vmmo313aQu7e_AVE9b8-oqS1OChM8LI3-W1L53MYzv3gbWjG-eHz-1gLnSLChXk4AwBSBziqblbsHxkKKZ8Ao1tJ2hxkvMzWOuPdL_bFc6ZqwlCG-opszSChbXjay9JJWdYpr4ZkQTRWQM6xacK8Hy8gAMYpYD1fvaUsxyRQsctxdnG4wXdoWMDY658d4kWBPiRoDOs2yEm5X3Z7pNkn5v3I7g/p.png?fv_content=true&size_mode=5",
+        img133: "https://sun6-19.userapi.com/H_yuqAHwESlT5lvE8tC_gcmG64EtRR9XF5JhBw/9OHxA9ied7Y.jpg",
         img233: "https://ucb48ca142a3d0b203e53cde58b3.previews.dropboxusercontent.com/p/thumb/AA2JExHSdVZkZlyd0XekIisc74yrt03ua16I3_YinH-TQnxNpl8WUQhl7afBiIEBxQGA9YINaGnsLv126GULGv7ebhXjztW5ENpYwfoeNuG1MR9xuvyIQkOa4jL7uAcCwBgr38seuRRoHgtbpq8y37GE0Omyywfu0bwDsZ-TtNXSX-9RKIR2R4C_pgks55PNceeLynpFT0vNxXO5o2f8CAhXJJIKO_XB_CydbalRvMY5nGaD_ZXMoEinvpt7RYA8MDtjlIJR3aJlX9V1ClWQ5ZAhk6zBtNJMNXnrylZcbJ7mQvkVTd-8czBMqy2uLNPvdP2MyzWlsmlWiPaqTJ2Ljw3F_9udbOOvdHyM4UaIvNNV6g/p.png?fv_content=true&size_mode=5",
     }
 

@@ -29,8 +29,8 @@
     /*width: 100%;*/
 }
 
-.box:hover {
+.img:hover {
     transition-duration: 1s;
-    transform: scale(2, 2);
+    transform: scale(3, 3);
 }
 
