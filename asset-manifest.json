@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Doors/static/css/main.ffeacd6e.chunk.css",
+    "main.css": "/Doors/static/css/main.675ecae6.chunk.css",
     "main.js": "/Doors/static/js/main.8763724b.chunk.js",
     "main.js.map": "/Doors/static/js/main.8763724b.chunk.js.map",
     "runtime-main.js": "/Doors/static/js/runtime-main.72f01182.js",
@@ -8,16 +8,16 @@
     "static/js/2.f9036ad7.chunk.js": "/Doors/static/js/2.f9036ad7.chunk.js",
     "static/js/2.f9036ad7.chunk.js.map": "/Doors/static/js/2.f9036ad7.chunk.js.map",
     "index.html": "/Doors/index.html",
-    "precache-manifest.be61e58fbf9e0e0fcfcdec0e267722a0.js": "/Doors/precache-manifest.be61e58fbf9e0e0fcfcdec0e267722a0.js",
+    "precache-manifest.a972fd91973c8552a6d9eac637a05b41.js": "/Doors/precache-manifest.a972fd91973c8552a6d9eac637a05b41.js",
     "service-worker.js": "/Doors/service-worker.js",
-    "static/css/main.ffeacd6e.chunk.css.map": "/Doors/static/css/main.ffeacd6e.chunk.css.map",
+    "static/css/main.675ecae6.chunk.css.map": "/Doors/static/css/main.675ecae6.chunk.css.map",
     "static/js/2.f9036ad7.chunk.js.LICENSE.txt": "/Doors/static/js/2.f9036ad7.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Doors/static/media/background.a6dc60c1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.72f01182.js",
     "static/js/2.f9036ad7.chunk.js",
-    "static/css/main.ffeacd6e.chunk.css",
+    "static/css/main.675ecae6.chunk.css",
     "static/js/main.8763724b.chunk.js"
   ]
 }
