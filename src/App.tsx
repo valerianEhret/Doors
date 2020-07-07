@@ -32,16 +32,8 @@ function App() {
         return (
         <HashRouter>
             <div className="App">
-
-                <Route path="/door1" render={ () => <Door1
-
-
-
-                />} />
-
-
-
-
+                <Navbar/>
+                <Route path="/door1" render={ () => <Door1/>} />
                 <Route path="/door2" render={ () => <Door2/>} />
                 <Route path="/door3" render={ () => <Door3/>} />
                 <Route path="/door4" render={ () => <Door4/>} />
@@ -51,7 +43,8 @@ function App() {
                 <Route path="/door8" render={ () => <Door8/>} />
                 <Route path="/door9" render={ () => <Door9/>} />
                 <Route path="/door10" render={ () => <Door10/>} />
-                <Navbar/>
+
+
             </div>
         </HashRouter>
     );
