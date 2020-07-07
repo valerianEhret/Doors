@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url("https://sun6-14.userapi.com/7fSAikmA-4sC7W7wO28JBoFrJk_v_hu1DB9aPg/0eaT8etnKE4.jpg");
+  background: url(./images/background.jpg);
 
   /*background: black;*/
 }

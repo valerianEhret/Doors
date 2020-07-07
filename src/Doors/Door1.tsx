@@ -26,6 +26,7 @@ export function Door1() {
 
         <div className={classes.wraper}>
             <div className={classes.box}>
+                {/*<a className={classes.link}   ></a>*/}
                     <img  className={classes.img}   src={img} alt="image" onClick={nextImg}/>
             </div>
         </div>
