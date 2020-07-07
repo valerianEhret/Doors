@@ -1,13 +1,13 @@
 
 
 .img {
-    width: 120px;
+    width: 100px;
 
 }
 
 .wraper {
     display: flex;
-    bottom: 105px;
+    bottom: 50px;
 
     position: fixed;
 /*    width: 100%;*/
@@ -22,8 +22,7 @@
 }
 
 .box {
-    padding: 0 10px;
-    margin: 0 20px;
+    margin: 0 10px;
     justify-content: center;
     align-items: center;
     /*width: 100%;*/
