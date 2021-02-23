@@ -1,16 +1,16 @@
 import React, {useState} from 'react';
 import {NavLink} from "react-router-dom";
 import classes from './Navbar.module.css';
-import {url} from "inspector";
-
+import door from "../src/images/door.jpg"
+import keyHole from "../src/images/keyhole.png"
 
 
 
 export function Navbar() {
 
     let state = {
-        img1: "https://sun6-19.userapi.com/H_yuqAHwESlT5lvE8tC_gcmG64EtRR9XF5JhBw/9OHxA9ied7Y.jpg",
-        img2: "https://ucb48ca142a3d0b203e53cde58b3.previews.dropboxusercontent.com/p/thumb/AA2JExHSdVZkZlyd0XekIisc74yrt03ua16I3_YinH-TQnxNpl8WUQhl7afBiIEBxQGA9YINaGnsLv126GULGv7ebhXjztW5ENpYwfoeNuG1MR9xuvyIQkOa4jL7uAcCwBgr38seuRRoHgtbpq8y37GE0Omyywfu0bwDsZ-TtNXSX-9RKIR2R4C_pgks55PNceeLynpFT0vNxXO5o2f8CAhXJJIKO_XB_CydbalRvMY5nGaD_ZXMoEinvpt7RYA8MDtjlIJR3aJlX9V1ClWQ5ZAhk6zBtNJMNXnrylZcbJ7mQvkVTd-8czBMqy2uLNPvdP2MyzWlsmlWiPaqTJ2Ljw3F_9udbOOvdHyM4UaIvNNV6g/p.png?fv_content=true&size_mode=5",
+        img1: door ,
+        img2: keyHole,
     }
 
     let [img, setImg] = useState(state.img1);
@@ -27,8 +27,8 @@ export function Navbar() {
 
 
     let state22 = {
-        img122: "https://sun6-19.userapi.com/H_yuqAHwESlT5lvE8tC_gcmG64EtRR9XF5JhBw/9OHxA9ied7Y.jpg",
-        img222: "https://ucb48ca142a3d0b203e53cde58b3.previews.dropboxusercontent.com/p/thumb/AA2JExHSdVZkZlyd0XekIisc74yrt03ua16I3_YinH-TQnxNpl8WUQhl7afBiIEBxQGA9YINaGnsLv126GULGv7ebhXjztW5ENpYwfoeNuG1MR9xuvyIQkOa4jL7uAcCwBgr38seuRRoHgtbpq8y37GE0Omyywfu0bwDsZ-TtNXSX-9RKIR2R4C_pgks55PNceeLynpFT0vNxXO5o2f8CAhXJJIKO_XB_CydbalRvMY5nGaD_ZXMoEinvpt7RYA8MDtjlIJR3aJlX9V1ClWQ5ZAhk6zBtNJMNXnrylZcbJ7mQvkVTd-8czBMqy2uLNPvdP2MyzWlsmlWiPaqTJ2Ljw3F_9udbOOvdHyM4UaIvNNV6g/p.png?fv_content=true&size_mode=5",
+        img122: door,
+        img222: keyHole,
     }
 
     let [img22, setImg22] = useState(state22.img122);
@@ -45,8 +45,8 @@ export function Navbar() {
 
 
     let state33 = {
-        img133: "https://sun6-19.userapi.com/H_yuqAHwESlT5lvE8tC_gcmG64EtRR9XF5JhBw/9OHxA9ied7Y.jpg",
-        img233: "https://ucb48ca142a3d0b203e53cde58b3.previews.dropboxusercontent.com/p/thumb/AA2JExHSdVZkZlyd0XekIisc74yrt03ua16I3_YinH-TQnxNpl8WUQhl7afBiIEBxQGA9YINaGnsLv126GULGv7ebhXjztW5ENpYwfoeNuG1MR9xuvyIQkOa4jL7uAcCwBgr38seuRRoHgtbpq8y37GE0Omyywfu0bwDsZ-TtNXSX-9RKIR2R4C_pgks55PNceeLynpFT0vNxXO5o2f8CAhXJJIKO_XB_CydbalRvMY5nGaD_ZXMoEinvpt7RYA8MDtjlIJR3aJlX9V1ClWQ5ZAhk6zBtNJMNXnrylZcbJ7mQvkVTd-8czBMqy2uLNPvdP2MyzWlsmlWiPaqTJ2Ljw3F_9udbOOvdHyM4UaIvNNV6g/p.png?fv_content=true&size_mode=5",
+        img133: door,
+        img233: keyHole,
     }
 
     let [img33, setImg33] = useState(state33.img133);
@@ -63,8 +63,8 @@ export function Navbar() {
 
 
     let state44 = {
-        img144: "https://sun6-19.userapi.com/H_yuqAHwESlT5lvE8tC_gcmG64EtRR9XF5JhBw/9OHxA9ied7Y.jpg",
-        img244: "https://ucb48ca142a3d0b203e53cde58b3.previews.dropboxusercontent.com/p/thumb/AA2JExHSdVZkZlyd0XekIisc74yrt03ua16I3_YinH-TQnxNpl8WUQhl7afBiIEBxQGA9YINaGnsLv126GULGv7ebhXjztW5ENpYwfoeNuG1MR9xuvyIQkOa4jL7uAcCwBgr38seuRRoHgtbpq8y37GE0Omyywfu0bwDsZ-TtNXSX-9RKIR2R4C_pgks55PNceeLynpFT0vNxXO5o2f8CAhXJJIKO_XB_CydbalRvMY5nGaD_ZXMoEinvpt7RYA8MDtjlIJR3aJlX9V1ClWQ5ZAhk6zBtNJMNXnrylZcbJ7mQvkVTd-8czBMqy2uLNPvdP2MyzWlsmlWiPaqTJ2Ljw3F_9udbOOvdHyM4UaIvNNV6g/p.png?fv_content=true&size_mode=5",
+        img144: door,
+        img244: keyHole,
     }
 
     let [img44, setImg44] = useState(state44.img144);
@@ -79,8 +79,8 @@ export function Navbar() {
 
 
     let state55 = {
-        img155: "https://sun6-19.userapi.com/H_yuqAHwESlT5lvE8tC_gcmG64EtRR9XF5JhBw/9OHxA9ied7Y.jpg",
-        img255: "https://ucb48ca142a3d0b203e53cde58b3.previews.dropboxusercontent.com/p/thumb/AA2JExHSdVZkZlyd0XekIisc74yrt03ua16I3_YinH-TQnxNpl8WUQhl7afBiIEBxQGA9YINaGnsLv126GULGv7ebhXjztW5ENpYwfoeNuG1MR9xuvyIQkOa4jL7uAcCwBgr38seuRRoHgtbpq8y37GE0Omyywfu0bwDsZ-TtNXSX-9RKIR2R4C_pgks55PNceeLynpFT0vNxXO5o2f8CAhXJJIKO_XB_CydbalRvMY5nGaD_ZXMoEinvpt7RYA8MDtjlIJR3aJlX9V1ClWQ5ZAhk6zBtNJMNXnrylZcbJ7mQvkVTd-8czBMqy2uLNPvdP2MyzWlsmlWiPaqTJ2Ljw3F_9udbOOvdHyM4UaIvNNV6g/p.png?fv_content=true&size_mode=5",
+        img155: door,
+        img255: keyHole
     }
 
     let [img55, setImg55] = useState(state55.img155);
@@ -95,8 +95,8 @@ export function Navbar() {
 
 
     let state66 = {
-        img166: "https://sun6-19.userapi.com/H_yuqAHwESlT5lvE8tC_gcmG64EtRR9XF5JhBw/9OHxA9ied7Y.jpg",
-        img266: "https://ucb48ca142a3d0b203e53cde58b3.previews.dropboxusercontent.com/p/thumb/AA2JExHSdVZkZlyd0XekIisc74yrt03ua16I3_YinH-TQnxNpl8WUQhl7afBiIEBxQGA9YINaGnsLv126GULGv7ebhXjztW5ENpYwfoeNuG1MR9xuvyIQkOa4jL7uAcCwBgr38seuRRoHgtbpq8y37GE0Omyywfu0bwDsZ-TtNXSX-9RKIR2R4C_pgks55PNceeLynpFT0vNxXO5o2f8CAhXJJIKO_XB_CydbalRvMY5nGaD_ZXMoEinvpt7RYA8MDtjlIJR3aJlX9V1ClWQ5ZAhk6zBtNJMNXnrylZcbJ7mQvkVTd-8czBMqy2uLNPvdP2MyzWlsmlWiPaqTJ2Ljw3F_9udbOOvdHyM4UaIvNNV6g/p.png?fv_content=true&size_mode=5",
+        img166: door,
+        img266: keyHole,
     }
 
     let [img66, setImg66] = useState(state66.img166);
@@ -111,8 +111,8 @@ export function Navbar() {
 
 
     let state77 = {
-        img177: "https://sun6-19.userapi.com/H_yuqAHwESlT5lvE8tC_gcmG64EtRR9XF5JhBw/9OHxA9ied7Y.jpg",
-        img277: "https://ucb48ca142a3d0b203e53cde58b3.previews.dropboxusercontent.com/p/thumb/AA2JExHSdVZkZlyd0XekIisc74yrt03ua16I3_YinH-TQnxNpl8WUQhl7afBiIEBxQGA9YINaGnsLv126GULGv7ebhXjztW5ENpYwfoeNuG1MR9xuvyIQkOa4jL7uAcCwBgr38seuRRoHgtbpq8y37GE0Omyywfu0bwDsZ-TtNXSX-9RKIR2R4C_pgks55PNceeLynpFT0vNxXO5o2f8CAhXJJIKO_XB_CydbalRvMY5nGaD_ZXMoEinvpt7RYA8MDtjlIJR3aJlX9V1ClWQ5ZAhk6zBtNJMNXnrylZcbJ7mQvkVTd-8czBMqy2uLNPvdP2MyzWlsmlWiPaqTJ2Ljw3F_9udbOOvdHyM4UaIvNNV6g/p.png?fv_content=true&size_mode=5",
+        img177: door,
+        img277: keyHole,
     }
 
     let [img77, setImg77] = useState(state77.img177);
@@ -128,8 +128,8 @@ export function Navbar() {
 
 
     let state88 = {
-        img188: "https://sun6-19.userapi.com/H_yuqAHwESlT5lvE8tC_gcmG64EtRR9XF5JhBw/9OHxA9ied7Y.jpg",
-        img288: "https://ucb48ca142a3d0b203e53cde58b3.previews.dropboxusercontent.com/p/thumb/AA2JExHSdVZkZlyd0XekIisc74yrt03ua16I3_YinH-TQnxNpl8WUQhl7afBiIEBxQGA9YINaGnsLv126GULGv7ebhXjztW5ENpYwfoeNuG1MR9xuvyIQkOa4jL7uAcCwBgr38seuRRoHgtbpq8y37GE0Omyywfu0bwDsZ-TtNXSX-9RKIR2R4C_pgks55PNceeLynpFT0vNxXO5o2f8CAhXJJIKO_XB_CydbalRvMY5nGaD_ZXMoEinvpt7RYA8MDtjlIJR3aJlX9V1ClWQ5ZAhk6zBtNJMNXnrylZcbJ7mQvkVTd-8czBMqy2uLNPvdP2MyzWlsmlWiPaqTJ2Ljw3F_9udbOOvdHyM4UaIvNNV6g/p.png?fv_content=true&size_mode=5",
+        img188: door,
+        img288: keyHole,
     }
 
     let [img88, setImg88] = useState(state88.img188);
@@ -145,8 +145,8 @@ export function Navbar() {
 
 
     let state99 = {
-        img199: "https://sun6-19.userapi.com/H_yuqAHwESlT5lvE8tC_gcmG64EtRR9XF5JhBw/9OHxA9ied7Y.jpg",
-        img299: "https://ucb48ca142a3d0b203e53cde58b3.previews.dropboxusercontent.com/p/thumb/AA2JExHSdVZkZlyd0XekIisc74yrt03ua16I3_YinH-TQnxNpl8WUQhl7afBiIEBxQGA9YINaGnsLv126GULGv7ebhXjztW5ENpYwfoeNuG1MR9xuvyIQkOa4jL7uAcCwBgr38seuRRoHgtbpq8y37GE0Omyywfu0bwDsZ-TtNXSX-9RKIR2R4C_pgks55PNceeLynpFT0vNxXO5o2f8CAhXJJIKO_XB_CydbalRvMY5nGaD_ZXMoEinvpt7RYA8MDtjlIJR3aJlX9V1ClWQ5ZAhk6zBtNJMNXnrylZcbJ7mQvkVTd-8czBMqy2uLNPvdP2MyzWlsmlWiPaqTJ2Ljw3F_9udbOOvdHyM4UaIvNNV6g/p.png?fv_content=true&size_mode=5",
+        img199: door,
+        img299: keyHole,
     }
 
     let [img99, setImg99] = useState(state99.img199);
@@ -161,8 +161,8 @@ export function Navbar() {
 
 
     let state100 = {
-        img1100: "https://sun6-19.userapi.com/H_yuqAHwESlT5lvE8tC_gcmG64EtRR9XF5JhBw/9OHxA9ied7Y.jpg",
-        img2100: "https://ucb48ca142a3d0b203e53cde58b3.previews.dropboxusercontent.com/p/thumb/AA2JExHSdVZkZlyd0XekIisc74yrt03ua16I3_YinH-TQnxNpl8WUQhl7afBiIEBxQGA9YINaGnsLv126GULGv7ebhXjztW5ENpYwfoeNuG1MR9xuvyIQkOa4jL7uAcCwBgr38seuRRoHgtbpq8y37GE0Omyywfu0bwDsZ-TtNXSX-9RKIR2R4C_pgks55PNceeLynpFT0vNxXO5o2f8CAhXJJIKO_XB_CydbalRvMY5nGaD_ZXMoEinvpt7RYA8MDtjlIJR3aJlX9V1ClWQ5ZAhk6zBtNJMNXnrylZcbJ7mQvkVTd-8czBMqy2uLNPvdP2MyzWlsmlWiPaqTJ2Ljw3F_9udbOOvdHyM4UaIvNNV6g/p.png?fv_content=true&size_mode=5",
+        img1100: door,
+        img2100: keyHole,
     }
 
     let [img100, setImg100] = useState(state100.img1100);

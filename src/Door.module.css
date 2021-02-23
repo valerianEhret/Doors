@@ -4,11 +4,13 @@
     justify-content: center;
     lign-content: center;
 
+
 }
 
 .box {
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     display: flex;
+    margin-bottom: 20px;
 }
 
 .img {
@@ -17,3 +19,16 @@
 /*.link {*/
 /*    background: url(./images/door1/1.jpg);*/
 /*}*/
+
+
+.radio {
+    position: fixed;
+    bottom: 40%;
+    /*position: relative;*/
+    /*text-align: center;*/
+    /*top:0px;*/
+    /*background-color: red;*/
+
+    /*width: 20%;*/
+    /*float: left;*/
+}
